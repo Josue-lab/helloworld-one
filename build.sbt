@@ -9,5 +9,4 @@ lazy val root = (project in file("."))
     version      in ThisBuild := "0.1.0-SNAPSHOT",
     name := "Hello",
     libraryDependencies += scalaTest % Test
-    libraryDependencies += "org.apache.commons" % "commons-math4" % "4.0-SNAPSHOT"
   )
